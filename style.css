@@ -35,6 +35,10 @@ a {
     color: black;
 }
 
+p {
+    color: #645b64;
+}
+
 ul li:hover {
     cursor: pointer;
     border-bottom: 2px solid #e0dd0d;
@@ -75,7 +79,6 @@ ul li:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: #b393bd;
     height: 500px;
 
 }
@@ -83,7 +86,7 @@ ul li:hover {
 #section-about h2 {
     margin: 50px;
     font-size: 35px;
-    color: #fff;
+    color: #c730b3;
 }
 
 #descrition {
@@ -118,13 +121,10 @@ ul li:hover {
     justify-content: center;
     align-items: center;
     width: 100%;
-    background: #d6d5d5;
-    height: 500px;
 }
 
 #contact-main {
     padding: 30px;
-
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -132,9 +132,9 @@ ul li:hover {
 }
 
 #contact h1 {
-    margin: -20px 0 30px 0;
+    margin: 40px 0;
     font-size: 35px;
-    color: #92219d;
+    color: #c730b3;
 
 }
 
@@ -198,4 +198,92 @@ ul li:hover {
     font-size: 20px;
     color: #fff;
     border-radius: 10px;
+}
+
+#content-pupil {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+
+#content-pupil h1 {
+    margin: 100px 0 30px 0;
+    font-size: 35px;
+    color: #c730b3;
+}
+
+#content {
+    display: flex;
+
+}
+
+article {
+    margin: 70px 0;
+}
+
+#content div {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 10px 70px;
+
+}
+
+#content div img {
+    width: 300px;
+    height: 350px;
+}
+
+
+
+#content-problem h1 {
+    margin: 40px 0;
+    font-size: 35px;
+    color: #c730b3;
+    text-align: center;
+}
+
+#content-problem-article {
+    display: flex;
+    justify-content: space-around;
+}
+
+#content-problem-image img {
+    width: 500px;
+    height: 500px;
+}
+
+#content-problem-description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 270px;
+}
+
+#content-problem-description div img {
+    width: 50px;
+    height: 45px;
+    margin: 0 15px;
+    border-radius: 50%;
+}
+
+#problem-description {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    border-bottom: 0.5px solid #645b64;
+    padding: 7px;
+}
+
+#problem-description div {
+    display: flex;
+    flex-direction: column;
+}
+
+#problem-description div label {
+    font-size: 20px;
+    font-weight: 700;
 }
